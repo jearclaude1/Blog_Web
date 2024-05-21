@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(222, 239, 255);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(222, 239, 255);
+    overflow: hidden;
+}
+.container .top{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap ;
+    box-shadow: 0px 2px 3px white;
+    
+}
+.container .top .div_top{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .top .div_tops{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .top .div_topc{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .top .div_topc .input{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(0, 136, 255);
+}
+.container .top .div_topc .input input{
+    width: 90%;
+    height: 100%;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    padding: 5px;
+    outline: none;
+}
+.container .top .div_topc .input i{
+    text-align: center;
+    color: white;
+    margin-left: 7px;
+    padding: 5px;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.container .top .div_tops .pfl{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .top .div_tops i{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+/*   middle  */
+.container .middle{
+    width: 100%;
+    height: 91vh;
+    display: flex;
+}
+.container .middle .left{
+    width: 15%;
+    height: 100%;
+    background-color: white;
+}
+
+.container .middle .left nav{
+    margin-left: 2%;
+}
+.container .middle .left nav ul{
+    list-style: none;
+}
+.container .middle .left nav ul a{
+    text-decoration: none;
+}
+.container .middle .left nav ul li, .active{
+    margin-top: 10%;
+    padding: 10px;
+    font-size: 15px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-evenly;
+    transition: 1s;
+    color: black;
+}
+.container .middle .left nav ul li:hover{
+    background-color: rgb(0, 136, 255);
+    color: white;
+}
+.container .middle .left nav ul  .active{
+    color: white;
+    background-color: rgb(0, 136, 255);
+}.container .middle .right{
+    width: 80%; 
+    padding: 10px; 
+    position: relative;    
+}
+.container .middle .right .right_card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.container .middle .right .right_card .card{
+    height: 70px;
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(0, 136, 255);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px rgb(0, 136, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .middle .right .right_card .card .word{
+    display: flex;
+    color:white;
+    font-weight: bold;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+.container .middle .right .right_card .word .num{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container .middle .right .right_card .word .num p{
+    font-size: 10px;
+}
+.container .middle .right .right_card .word .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}.container .middle .right .right_card .card1{
+    height: 70px;
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(32, 110, 179);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px rgb(0, 136, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .middle .right .right_card .card1 .word{
+    display: flex;
+    color:white;
+    font-weight: bold;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+.container .middle .right .right_card .word1 .num{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container .middle .right .right_card .word1 .num p{
+    font-size: 10px;
+}
+.container .middle .right .right_card .word1 .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.container .middle .right .right_card .card2{
+    height: 70px;
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(4, 79, 145);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px rgb(0, 136, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .middle .right .right_card .card2 .word{
+    display: flex;
+    color:white;
+    font-weight: bold;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+.container .middle .right .right_card .word2 .num{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container .middle .right .right_card .word2 .num p{
+    font-size: 10px;
+}
+.container .middle .right .right_card .word2 .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.container .middle .right .right_card .card3{
+    height: 70px;
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(38, 60, 80);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px rgb(0, 136, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .middle .right .right_card .card3 .word{
+    display: flex;
+    color:white;
+    font-weight: bold;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+.container .middle .right .right_card .word3 .num{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container .middle .right .right_card .word3 .num p{
+    font-size: 10px;
+}
+.container .middle .right .right_card .word3 .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.container .middle .right .data{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 8%;
+    border-radius: 10px;
+    background-color: white;
+    overflow-y: scroll;
+}
+.container .middle .right .data  .data_top{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    border-bottom: 2px solid gray;
+}
+.container .middle .right .data  .data_top h3{
+    color: rgb(0, 136, 255);
+}
+.container .middle .right .data  .data_top a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    background-color: rgb(38, 60, 80);
+    border-radius: 5px;
+}
+.container .middle .right .data table{
+    width: 90%;
+    text-align: center;
+}
+.container .middle .right .data table th{
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}
+.container .middle .right .data table td{
+    color: rgb(19, 18, 18);
+    padding: 5px;
+    border-bottom: 1px solid gray;
+
+}
+.container .middle .right .data table td a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(32, 110, 179);
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+/* righ-form  next file*/
+.container .middle .right{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+}
+.container .middle .right .righ-form{
+  background-color: white;
+  width: 90%;
+  margin-top: 5%;
+}
+.container .middle .right .righ-form .form-title{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(32, 110, 179);
+}
+.container .middle .right .righ-form .form-user form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container .middle .right .righ-form .form-user form .input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.container .middle .right .righ-form .form-user form .input .file{
+    transform: scale(1.2);
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.container .middle .right .righ-form .form-user form .input .inpt{
+    width: 60%;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    font-size: 15px;
+}
+.container .middle .right .righ-form .form-user form .input textarea{
+    width: 60%;
+    outline: none;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    font-size: 15px;
+}
+.container .middle .right .righ-form .form-user form .input .btn{
+    width: 20%;
+    font-size: 19px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(32, 110, 179);
+    color: white;
+    border-radius: 5px;
+    transition: 1s;
+}
+.container .middle .right .righ-form .form-user form .input .btn:hover{
+    transform: scale(1.1);
+}
